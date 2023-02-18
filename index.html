@@ -12,29 +12,29 @@
         <h1>CALCULATOR</h1>
     </div>
 <div class="container">
-    <form>
-        <label for="fname"></label>
-        <input type="text" id="fname" name="fname">
-      </form>
+    <div class="display">
+      <div class="previous-operand">1234</div>
+      <div class="current-operand">43215</div>
+    </div>
   <div class="grid-container">
-    <div class="grid-item">C</div>
-    <div class="grid-item">%</div>
-    <div class="grid-item">/</div>
-    <div class="grid-item" id="color">x</div>
-    <div class="grid-item">7</div>
-    <div class="grid-item">8</div>
-    <div class="grid-item">9</div>
-    <div class="grid-item" id="color">-</div>
-    <div class="grid-item">4</div>
-    <div class="grid-item">5</div>
-    <div class="grid-item">6</div>
-    <div class="grid-item" id="color">+</div>
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item" id="item1">=</div>
-    <div class="grid-item" id="item2">0</div>
-    <div class="grid-item">.</div>
+    <button class="clear">AC</button>
+    <button class="delete">DEL</button>
+    <button class="operator">/</button>
+    <button class="operator" id="color">x</button>
+    <button class="number" value="7">7</button>
+    <button class="number" value="8">8</button>
+    <button class="number" value="9">9</button>
+    <button class="operator" id="color">-</button>
+    <button class="number" value="4">4</button>
+    <button class="number" value="5">5</button>
+    <button class="number" value="6">6</button>
+    <button class="operator" id="color">+</button>
+    <button class="number" value="1">1</button>
+    <button class="number" value="2">2</button>
+    <button class="number" value="3">3</button>
+    <button class="equals-key" class="result" id="item1">=</button>
+    <button class="number" id="item2" value="0">0</button>
+    <button class="number">.</button>
   </div> 
 </div>  
 </body>
